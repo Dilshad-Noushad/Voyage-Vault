@@ -1,0 +1,682 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		620B3B262975C94100154640 /* CategoryCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620B3B252975C94100154640 /* CategoryCardView.swift */; };
+		620B3B292975C9B600154640 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620B3B282975C9B600154640 /* Model.swift */; };
+		620B3B2B2975E67F00154640 /* DestinationCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620B3B2A2975E67F00154640 /* DestinationCardView.swift */; };
+		6274274029781F6E000DB2F7 /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6274273F29781F6E000DB2F7 /* LaunchView.swift */; };
+		62AA326A2972FAE5002280DF /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AA32692972FAE4002280DF /* TabBarView.swift */; };
+		62AB483D2965A63300397D0E /* Voyage_VaultApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AB483C2965A63300397D0E /* Voyage_VaultApp.swift */; };
+		62AB483F2965A63300397D0E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AB483E2965A63300397D0E /* ContentView.swift */; };
+		62AB48412965A63500397D0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62AB48402965A63500397D0E /* Assets.xcassets */; };
+		62AB48442965A63500397D0E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62AB48432965A63500397D0E /* Preview Assets.xcassets */; };
+		62AB484E2965A63500397D0E /* Voyage_VaultTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AB484D2965A63500397D0E /* Voyage_VaultTests.swift */; };
+		62AB48582965A63500397D0E /* Voyage_VaultUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AB48572965A63500397D0E /* Voyage_VaultUITests.swift */; };
+		62AB485A2965A63500397D0E /* Voyage_VaultUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AB48592965A63500397D0E /* Voyage_VaultUITestsLaunchTests.swift */; };
+		62AB486C2965A66500397D0E /* BaiJamjuree-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 62AB48672965A66500397D0E /* BaiJamjuree-Regular.ttf */; };
+		62AB486D2965A66500397D0E /* BaiJamjuree-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 62AB48682965A66500397D0E /* BaiJamjuree-Light.ttf */; };
+		62AB486E2965A66500397D0E /* BaiJamjuree-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 62AB48692965A66500397D0E /* BaiJamjuree-Bold.ttf */; };
+		62AB486F2965A66500397D0E /* BaiJamjuree-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 62AB486A2965A66500397D0E /* BaiJamjuree-SemiBold.ttf */; };
+		62AB48702965A66500397D0E /* BaiJamjuree-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 62AB486B2965A66500397D0E /* BaiJamjuree-Medium.ttf */; };
+		62AB48742965A67000397D0E /* Color++.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AB48722965A67000397D0E /* Color++.swift */; };
+		62AB48752965A67000397D0E /* Font++.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AB48732965A67000397D0E /* Font++.swift */; };
+		62AB48782965A77000397D0E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AB48772965A77000397D0E /* HomeView.swift */; };
+		62B0395F297FB47C009ECFA9 /* FirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B0395E297FB47B009ECFA9 /* FirstView.swift */; };
+		62B03961297FE7AE009ECFA9 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B03960297FE7AE009ECFA9 /* ViewModel.swift */; };
+		62CD10AB297AB45100C73834 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62CD10AA297AB45100C73834 /* DetailView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		62AB484A2965A63500397D0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62AB48312965A63300397D0E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62AB48382965A63300397D0E;
+			remoteInfo = "Voyage Vault";
+		};
+		62AB48542965A63500397D0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62AB48312965A63300397D0E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62AB48382965A63300397D0E;
+			remoteInfo = "Voyage Vault";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		620B3B252975C94100154640 /* CategoryCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCardView.swift; sourceTree = "<group>"; };
+		620B3B282975C9B600154640 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		620B3B2A2975E67F00154640 /* DestinationCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationCardView.swift; sourceTree = "<group>"; };
+		6274273F29781F6E000DB2F7 /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
+		62AA32692972FAE4002280DF /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		62AB48392965A63300397D0E /* Voyage Vault.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Voyage Vault.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62AB483C2965A63300397D0E /* Voyage_VaultApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Voyage_VaultApp.swift; sourceTree = "<group>"; };
+		62AB483E2965A63300397D0E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		62AB48402965A63500397D0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		62AB48432965A63500397D0E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		62AB48492965A63500397D0E /* Voyage VaultTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Voyage VaultTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62AB484D2965A63500397D0E /* Voyage_VaultTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Voyage_VaultTests.swift; sourceTree = "<group>"; };
+		62AB48532965A63500397D0E /* Voyage VaultUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Voyage VaultUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62AB48572965A63500397D0E /* Voyage_VaultUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Voyage_VaultUITests.swift; sourceTree = "<group>"; };
+		62AB48592965A63500397D0E /* Voyage_VaultUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Voyage_VaultUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		62AB48672965A66500397D0E /* BaiJamjuree-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BaiJamjuree-Regular.ttf"; sourceTree = "<group>"; };
+		62AB48682965A66500397D0E /* BaiJamjuree-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BaiJamjuree-Light.ttf"; sourceTree = "<group>"; };
+		62AB48692965A66500397D0E /* BaiJamjuree-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BaiJamjuree-Bold.ttf"; sourceTree = "<group>"; };
+		62AB486A2965A66500397D0E /* BaiJamjuree-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BaiJamjuree-SemiBold.ttf"; sourceTree = "<group>"; };
+		62AB486B2965A66500397D0E /* BaiJamjuree-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BaiJamjuree-Medium.ttf"; sourceTree = "<group>"; };
+		62AB48722965A67000397D0E /* Color++.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color++.swift"; sourceTree = "<group>"; };
+		62AB48732965A67000397D0E /* Font++.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Font++.swift"; sourceTree = "<group>"; };
+		62AB48762965A6D000397D0E /* Voyage-Vault-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Voyage-Vault-Info.plist"; sourceTree = SOURCE_ROOT; };
+		62AB48772965A77000397D0E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		62B0395E297FB47B009ECFA9 /* FirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstView.swift; sourceTree = "<group>"; };
+		62B03960297FE7AE009ECFA9 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		62CD10AA297AB45100C73834 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62AB48362965A63300397D0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62AB48462965A63500397D0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62AB48502965A63500397D0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		620B3B272975C98B00154640 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				620B3B282975C9B600154640 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		62AB48302965A63300397D0E = {
+			isa = PBXGroup;
+			children = (
+				62AB483B2965A63300397D0E /* Voyage Vault */,
+				62AB484C2965A63500397D0E /* Voyage VaultTests */,
+				62AB48562965A63500397D0E /* Voyage VaultUITests */,
+				62AB483A2965A63300397D0E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		62AB483A2965A63300397D0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62AB48392965A63300397D0E /* Voyage Vault.app */,
+				62AB48492965A63500397D0E /* Voyage VaultTests.xctest */,
+				62AB48532965A63500397D0E /* Voyage VaultUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62AB483B2965A63300397D0E /* Voyage Vault */ = {
+			isa = PBXGroup;
+			children = (
+				62AB48762965A6D000397D0E /* Voyage-Vault-Info.plist */,
+				62AB483C2965A63300397D0E /* Voyage_VaultApp.swift */,
+				620B3B272975C98B00154640 /* Model */,
+				62B03960297FE7AE009ECFA9 /* ViewModel.swift */,
+				62AB48792965A77B00397D0E /* View */,
+				62AB48402965A63500397D0E /* Assets.xcassets */,
+				62AB48712965A67000397D0E /* Extensions */,
+				62AB48662965A66500397D0E /* Font */,
+				62AB48422965A63500397D0E /* Preview Content */,
+			);
+			path = "Voyage Vault";
+			sourceTree = "<group>";
+		};
+		62AB48422965A63500397D0E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				62AB48432965A63500397D0E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		62AB484C2965A63500397D0E /* Voyage VaultTests */ = {
+			isa = PBXGroup;
+			children = (
+				62AB484D2965A63500397D0E /* Voyage_VaultTests.swift */,
+			);
+			path = "Voyage VaultTests";
+			sourceTree = "<group>";
+		};
+		62AB48562965A63500397D0E /* Voyage VaultUITests */ = {
+			isa = PBXGroup;
+			children = (
+				62AB48572965A63500397D0E /* Voyage_VaultUITests.swift */,
+				62AB48592965A63500397D0E /* Voyage_VaultUITestsLaunchTests.swift */,
+			);
+			path = "Voyage VaultUITests";
+			sourceTree = "<group>";
+		};
+		62AB48662965A66500397D0E /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				62AB48672965A66500397D0E /* BaiJamjuree-Regular.ttf */,
+				62AB48682965A66500397D0E /* BaiJamjuree-Light.ttf */,
+				62AB48692965A66500397D0E /* BaiJamjuree-Bold.ttf */,
+				62AB486A2965A66500397D0E /* BaiJamjuree-SemiBold.ttf */,
+				62AB486B2965A66500397D0E /* BaiJamjuree-Medium.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		62AB48712965A67000397D0E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				62AB48722965A67000397D0E /* Color++.swift */,
+				62AB48732965A67000397D0E /* Font++.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		62AB48792965A77B00397D0E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				62AB483E2965A63300397D0E /* ContentView.swift */,
+				62AB48772965A77000397D0E /* HomeView.swift */,
+				62AA32692972FAE4002280DF /* TabBarView.swift */,
+				620B3B252975C94100154640 /* CategoryCardView.swift */,
+				620B3B2A2975E67F00154640 /* DestinationCardView.swift */,
+				6274273F29781F6E000DB2F7 /* LaunchView.swift */,
+				62CD10AA297AB45100C73834 /* DetailView.swift */,
+				62B0395E297FB47B009ECFA9 /* FirstView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		62AB48382965A63300397D0E /* Voyage Vault */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62AB485D2965A63500397D0E /* Build configuration list for PBXNativeTarget "Voyage Vault" */;
+			buildPhases = (
+				62AB48352965A63300397D0E /* Sources */,
+				62AB48362965A63300397D0E /* Frameworks */,
+				62AB48372965A63300397D0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Voyage Vault";
+			productName = "Voyage Vault";
+			productReference = 62AB48392965A63300397D0E /* Voyage Vault.app */;
+			productType = "com.apple.product-type.application";
+		};
+		62AB48482965A63500397D0E /* Voyage VaultTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62AB48602965A63500397D0E /* Build configuration list for PBXNativeTarget "Voyage VaultTests" */;
+			buildPhases = (
+				62AB48452965A63500397D0E /* Sources */,
+				62AB48462965A63500397D0E /* Frameworks */,
+				62AB48472965A63500397D0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62AB484B2965A63500397D0E /* PBXTargetDependency */,
+			);
+			name = "Voyage VaultTests";
+			productName = "Voyage VaultTests";
+			productReference = 62AB48492965A63500397D0E /* Voyage VaultTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		62AB48522965A63500397D0E /* Voyage VaultUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62AB48632965A63500397D0E /* Build configuration list for PBXNativeTarget "Voyage VaultUITests" */;
+			buildPhases = (
+				62AB484F2965A63500397D0E /* Sources */,
+				62AB48502965A63500397D0E /* Frameworks */,
+				62AB48512965A63500397D0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62AB48552965A63500397D0E /* PBXTargetDependency */,
+			);
+			name = "Voyage VaultUITests";
+			productName = "Voyage VaultUITests";
+			productReference = 62AB48532965A63500397D0E /* Voyage VaultUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		62AB48312965A63300397D0E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					62AB48382965A63300397D0E = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					62AB48482965A63500397D0E = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 62AB48382965A63300397D0E;
+					};
+					62AB48522965A63500397D0E = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 62AB48382965A63300397D0E;
+					};
+				};
+			};
+			buildConfigurationList = 62AB48342965A63300397D0E /* Build configuration list for PBXProject "Voyage Vault" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 62AB48302965A63300397D0E;
+			productRefGroup = 62AB483A2965A63300397D0E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62AB48382965A63300397D0E /* Voyage Vault */,
+				62AB48482965A63500397D0E /* Voyage VaultTests */,
+				62AB48522965A63500397D0E /* Voyage VaultUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		62AB48372965A63300397D0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62AB48442965A63500397D0E /* Preview Assets.xcassets in Resources */,
+				62AB486F2965A66500397D0E /* BaiJamjuree-SemiBold.ttf in Resources */,
+				62AB486E2965A66500397D0E /* BaiJamjuree-Bold.ttf in Resources */,
+				62AB486D2965A66500397D0E /* BaiJamjuree-Light.ttf in Resources */,
+				62AB486C2965A66500397D0E /* BaiJamjuree-Regular.ttf in Resources */,
+				62AB48702965A66500397D0E /* BaiJamjuree-Medium.ttf in Resources */,
+				62AB48412965A63500397D0E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62AB48472965A63500397D0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62AB48512965A63500397D0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62AB48352965A63300397D0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62AB48752965A67000397D0E /* Font++.swift in Sources */,
+				620B3B262975C94100154640 /* CategoryCardView.swift in Sources */,
+				620B3B2B2975E67F00154640 /* DestinationCardView.swift in Sources */,
+				6274274029781F6E000DB2F7 /* LaunchView.swift in Sources */,
+				62AB48742965A67000397D0E /* Color++.swift in Sources */,
+				62CD10AB297AB45100C73834 /* DetailView.swift in Sources */,
+				62B03961297FE7AE009ECFA9 /* ViewModel.swift in Sources */,
+				62AA326A2972FAE5002280DF /* TabBarView.swift in Sources */,
+				62AB483F2965A63300397D0E /* ContentView.swift in Sources */,
+				620B3B292975C9B600154640 /* Model.swift in Sources */,
+				62B0395F297FB47C009ECFA9 /* FirstView.swift in Sources */,
+				62AB48782965A77000397D0E /* HomeView.swift in Sources */,
+				62AB483D2965A63300397D0E /* Voyage_VaultApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62AB48452965A63500397D0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62AB484E2965A63500397D0E /* Voyage_VaultTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62AB484F2965A63500397D0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62AB485A2965A63500397D0E /* Voyage_VaultUITestsLaunchTests.swift in Sources */,
+				62AB48582965A63500397D0E /* Voyage_VaultUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		62AB484B2965A63500397D0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62AB48382965A63300397D0E /* Voyage Vault */;
+			targetProxy = 62AB484A2965A63500397D0E /* PBXContainerItemProxy */;
+		};
+		62AB48552965A63500397D0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62AB48382965A63300397D0E /* Voyage Vault */;
+			targetProxy = 62AB48542965A63500397D0E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		62AB485B2965A63500397D0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		62AB485C2965A63500397D0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		62AB485E2965A63500397D0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Voyage Vault/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Voyage-Vault-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dilshad.Voyage-Vault";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		62AB485F2965A63500397D0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Voyage Vault/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Voyage-Vault-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dilshad.Voyage-Vault";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		62AB48612965A63500397D0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dilshad.Voyage-VaultTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Voyage Vault.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Voyage Vault";
+			};
+			name = Debug;
+		};
+		62AB48622965A63500397D0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dilshad.Voyage-VaultTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Voyage Vault.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Voyage Vault";
+			};
+			name = Release;
+		};
+		62AB48642965A63500397D0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dilshad.Voyage-VaultUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Voyage Vault";
+			};
+			name = Debug;
+		};
+		62AB48652965A63500397D0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dilshad.Voyage-VaultUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Voyage Vault";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		62AB48342965A63300397D0E /* Build configuration list for PBXProject "Voyage Vault" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62AB485B2965A63500397D0E /* Debug */,
+				62AB485C2965A63500397D0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62AB485D2965A63500397D0E /* Build configuration list for PBXNativeTarget "Voyage Vault" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62AB485E2965A63500397D0E /* Debug */,
+				62AB485F2965A63500397D0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62AB48602965A63500397D0E /* Build configuration list for PBXNativeTarget "Voyage VaultTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62AB48612965A63500397D0E /* Debug */,
+				62AB48622965A63500397D0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62AB48632965A63500397D0E /* Build configuration list for PBXNativeTarget "Voyage VaultUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62AB48642965A63500397D0E /* Debug */,
+				62AB48652965A63500397D0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 62AB48312965A63300397D0E /* Project object */;
+}
